@@ -1,5 +1,6 @@
 # software-documentation-project
 Project overview:
+
 This project is a weather website that fetches real-time weather data using an API. Users can search for weather updates by entering the names of different cities and get the current weather status instantly and The website is designed to provide a simple user experience.
 
 Features:
