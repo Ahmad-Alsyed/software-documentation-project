@@ -1,0 +1,6 @@
+project overview:
+purpose: provide real time weather data
+target audience: the general public along side
+
+this project main goal is to give the users an up to date forecast of the weather using open weather API in this project we hope to achieve a responsive website and an appealing interface in hopes of keeping people coming back
+we are also hoping to upgrade this further in the future making it an app.
