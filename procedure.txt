@@ -1,0 +1,10 @@
+Search for a city:
+To search for a city you must first click on the search bar on the bottom left of the screen after enter the name of the city you are looking for making sure you are not misspelling the name.
+Another option is to click on the “cities” option and manually navigate through the list of cities until you find the one you want.
+Another option is clicking on the map which allows you to navigate through a map finding the city you like.
+ 
+Select a specific day:
+To select a specific day first click on the word “today” in the interface it should display the seven days to come clicking on any will show you the forecast of said day.
+ 
+Changing the language:
+Click on the “settings” option and after that the language option navigate through the given list and choose the language you want.
