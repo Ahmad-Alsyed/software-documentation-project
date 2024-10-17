@@ -1,0 +1,47 @@
+This section outlines common issues that users or developers may encounter while using or maintaining the weather website application, along with solutions to resolve these issues.
+
+1. Issue: API Connection Failure
+Symptom: The website fails to retrieve weather data and displays a "No Data Available" error.
+Possible Causes:
+API key is missing or invalid.
+API service is down or unreachable.
+Solution:
+Ensure that the correct API key is provided in the configuration.
+Check the status of the API service (e.g., via the API provider's status page).
+Verify internet connectivity.
+
+2. Issue: Incorrect Weather Data Displayed
+Symptom: The weather data displayed does not match real-time data or shows outdated information.
+Possible Causes:
+Cached data being used instead of fetching new data.
+Incorrect API call parameters (e.g., wrong city ID or coordinates).
+Solution:
+Clear the browser cache or force the website to fetch new data by refreshing the page.
+Double-check the API call parameters and ensure they are accurate.
+
+3. Issue: Website Load Time is Slow
+Symptom: The website takes a long time to load, especially when fetching weather data.
+Possible Causes:
+Slow internet connection or server response time.
+Heavy images or scripts slowing down the page.
+Solution:
+Optimize the website by compressing images and minifying scripts.
+Consider using a Content Delivery Network (CDN) to improve loading times for users in different regions.
+
+4. Issue: City Search Function Not Working
+Symptom: Users are unable to search for cities or no results are returned for valid city names.
+Possible Causes:
+API call not handling city names correctly.
+City data not properly parsed or handled by the front end.
+Solution:
+Ensure that the API call includes proper encoding for city names, especially those with special characters.
+Check the front-end code responsible for displaying search results and debug any errors related to parsing.
+
+5. Issue: UI Display Issues
+Symptom: Weather information is not displayed correctly or is misaligned on different devices (e.g., mobile vs. desktop).
+Possible Causes:
+CSS issues affecting the layout of the website.
+Different screen resolutions causing layout shifts.
+Solution:
+Test the website on multiple devices and browsers to ensure responsive design.
+Use media queries in CSS to adjust the layout for various screen sizes.
